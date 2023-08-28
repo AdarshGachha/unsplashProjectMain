@@ -1,0 +1,76 @@
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vmax;
+    /* height: 20vmax;
+    width: 30vmax; */
+    box-shadow: 0 20px 30px -1px rgb(95, 95, 95);
+
+}
+
+.images img{
+    /* object-fit: cover; */
+    object-position: center;
+    flex-shrink: 0;
+}
+.allimages{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+    flex-wrap: wrap;
+    font-family: gilroy;
+    text-align: center;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Search form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Search form input{
+    width: 30vmax;
+    height: 3vmax;
+    outline: none;
+    font-size: 1.5vmax;
+    padding: 0 2vw;
+    text-transform: capitalize;
+}
+.Search form button{
+    width: 10vmax;
+    height: 3vmax;
+    color: aliceblue;
+    background: #333333;
+    border: none;
+    outline: none;
+}
+.paging{
+    position: relative;
+    left: 50%;
+    width: 50vmax;
+    height: 10vmax;
+    display: flex;
+    gap: 10px;
+}
+.main{
+    overflow: hidden;
+}
+.Trend h1{
+    text-align: center;
+
+}
+
+.pages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
