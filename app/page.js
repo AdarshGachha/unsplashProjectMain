@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import {CentralizedData} from "./Context"
 import axios from "axios"
 import Link from "next/link"
+import { Button } from "@material-tailwind/react"
 
 const page = () => {
   const router = useRouter()
@@ -42,19 +43,19 @@ const page = () => {
 
 
   return (
-    <>
+    <div className=" flex items-center justify-center gap-2 h-screen">
     
-    <button onClick={GetImages}>
+    <Button className="rounded-lg px-3" onClick={GetImages}>
                 Trend Images
-            </button>
+            </Button>
             <Link href="/search">
-            <button>
+            <Button className="bg-transparent px-3 text-gray-900 outline outline-1 outline-black">
                 SearchImages
-            </button>
+            </Button>
             </Link>
             
 
-    </>
+    </div>
     
   )
 }

@@ -14,7 +14,7 @@ const Authentication = (props) => {
   const {children} = props;
 return (
   <html lang="en">
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning={true}>
 
         <CentralData>{children}</CentralData>
 
